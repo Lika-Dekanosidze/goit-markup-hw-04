@@ -360,11 +360,19 @@ header {
 }
 /*clients company*/
 .clients-company-link {
+  display: flex;
   align-items: center;
   justify-content: center;
   fill: #afb1b8;
-  padding: 16px 32px;
+  height: 92px;
+  width: 170px;
+
+  height: 92px;
+  -webkit-box-pack: center;
+  border: 1px solid #afb1b8;
+  border-radius: 3px;
 }
+
 .clients-company {
   display: flex;
   gap: 30px;
@@ -373,10 +381,6 @@ header {
 .clients-company-link:focus {
   fill: var(--accent-color);
   border-color: var(--accent-color);
-}
-.clients-company-link {
-  border: 1px solid #afb1b8;
-  border-radius: 3px;
 }
 
 .clients-company-items {
