@@ -211,8 +211,6 @@ header {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-/*url(../images/img-hero.jpg);*/
-
 .overlay {
   max-width: 1600px;
   height: 600px;
@@ -290,15 +288,6 @@ header {
 .benefits-content .item:not(:last-child) {
   margin-right: 30px;
 }
-/*.benefits-content .item::before {
-  display: inline-block;
-  content: '';
-  width: 270px;
-  height: 120px;
-  background-color: var(--bd-section-team);
-}
-*/
-
 .text {
   line-height: 1.71;
 }
@@ -393,8 +382,9 @@ header {
 .clients-company-items {
   display: flex;
 
-  width: 170px;
-  height: 92px;
+  max-width: 170px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /*work service*/
